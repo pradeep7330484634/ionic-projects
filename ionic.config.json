@@ -1,0 +1,7 @@
+{
+  "name": " highway-ride",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
