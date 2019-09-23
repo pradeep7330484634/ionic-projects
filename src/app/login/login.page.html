@@ -1,9 +1,9 @@
-<ion-header>
+<!-- <ion-header>
   <ion-toolbar>
     <ion-title>login</ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content>
-
+  <app-auth-form [fg]="form" [fc]="formControls"  (message)="updateName($event)"></app-auth-form>
 </ion-content>

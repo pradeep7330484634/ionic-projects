@@ -1,0 +1,25 @@
+<mat-card class="form">
+  <div class="logo-img">
+    <img src="../../../../assets/icon/favicon.png" alt="">
+    <div>
+      <h3>LOGIN</h3>
+    </div>
+  </div>
+  <form [formGroup]="formGroupName">
+    <div class="p-formfield">
+      <mat-form-field>
+        <input matInput placeholder="Enter your email" formControlName="userName" required>
+        <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
+      </mat-form-field>
+    </div>
+    <div class="p-formfield">
+      <mat-form-field>
+        <input matInput placeholder="Enter your password" formControlName="password" required>
+        <!-- <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error> -->
+      </mat-form-field>
+    </div>
+    <div class="p-button">
+      <button mat-button (click)="sendToParent()">LOGIN</button>
+    </div>
+  </form>
+</mat-card>
