@@ -8,11 +8,11 @@ import { FormGroup } from '@angular/forms';
 })
 export class LoginPage implements OnInit {
   formGroupName = "form";
-  formControls= {
+  formControls = {
     "userName": "",
     "password": ""
   };
-  
+
   constructor() { }
 
   ngOnInit() {
